@@ -144,3 +144,40 @@ CourseHub
     ├── templates
     ├── static
     └── application.properties
+
+
+User
+  │
+  ▼
+Registration / Login
+  │
+  ▼
+Authentication & Authorization
+  │
+  ├───────────────┐
+  ▼               ▼
+Student          Admin/Trainer
+  │               │
+  ▼               ▼
+Browse Courses   Manage Courses
+  │               │
+  ▼               ▼
+Enroll           Manage Modules
+  │               │
+  ▼               ▼
+Payment          Manage Lessons
+  │
+  ▼
+Learn Course
+  │
+  ▼
+Track Progress
+  │
+  ▼
+Attempt Mock Test
+  │
+  ▼
+Complete Course
+  │
+  ▼
+Certificate
